@@ -179,7 +179,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
             <div className="bg-purple-50 border border-purple-200 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-purple-800 mb-4 flex items-center gap-2">
                 <Bot className="w-5 h-5" />
-                Análise com Inteligência Artificial
+                Análise do DBABoost
               </h3>
               
               <div className="space-y-4">
