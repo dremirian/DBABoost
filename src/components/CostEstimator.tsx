@@ -82,7 +82,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold flex items-center gap-2">
             <Calculator className="w-5 h-5" />
-            Estimador de Custo
+            Análise de Querie do DBA Boost
           </h2>
           <div className="flex items-center gap-2">
             {isOpenAIConfigured() && (
