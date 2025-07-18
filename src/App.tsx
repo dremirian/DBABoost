@@ -29,7 +29,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
             <div className="bg-blue-600 p-2 rounded-lg">
-             <img src="/logo.png" alt="Logo DBA Boost" className="w-6 h-6" />
+             <img src="/dbaboost.png" alt="Logo DBA Boost" className="w-6 h-6" />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">DBABoost</h1>
