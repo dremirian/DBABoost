@@ -31,7 +31,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
              <div className="bg-white p-2 rounded-lg shadow border border-gray-200">
-           <img src={dbaboostLogo} alt="Logo DBA Boost" className="w-6 h-6" />
+           <img src={dbaboostLogo} alt="Logo DBA Boost" className="w-8 h-8" />
 
             </div>
             <div>
