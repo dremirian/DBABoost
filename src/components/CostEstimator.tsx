@@ -96,7 +96,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
                 ) : (
                   <Bot className="w-4 h-4" />
                 )}
-                {isAnalyzingWithAI ? 'Analisando...' : 'Análise com o DBABooster'}
+                {isAnalyzingWithAI ? 'Analisando...' : 'Análise com o DBA Boost'}
               </button>
             )}
             <button
