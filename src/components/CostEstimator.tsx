@@ -69,7 +69,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
         onAnalysisResult(updatedAnalysis, query);
       }
     } catch (error) {
-      console.error('Erro na análise com IA:', error);
+      console.error('Erro na análise com o DBABooster:', error);
       alert('Erro ao analisar com IA. Verifique sua API key e conexão.');
     } finally {
       setIsAnalyzingWithAI(false);
@@ -96,7 +96,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
                 ) : (
                   <Bot className="w-4 h-4" />
                 )}
-                {isAnalyzingWithAI ? 'Analisando...' : 'Análise com IA'}
+                {isAnalyzingWithAI ? 'Analisando...' : 'Análise com o DBABooster'}
               </button>
             )}
             <button
