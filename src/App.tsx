@@ -5,6 +5,8 @@ import { ExecutionComparator } from './components/ExecutionComparator';
 import { CostEstimator } from './components/CostEstimator';
 import { ReportGenerator } from './components/ReportGenerator';
 import { ReportData, ComparisonResult, QueryAnalysis } from './types';
+import dbaboostLogo from './dbaboost.png'; // ajuste o caminho se estiver em subpasta, tipo './assets/dbaboost.png'
+
 
 type ActiveTab = 'comparison' | 'estimator' | 'report';
 
@@ -29,7 +31,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
             <div className="bg-blue-600 p-2 rounded-lg">
-             <img src="/dbaboost.png" alt="Logo DBA Boost" className="w-6 h-6" />
+           <img src={dbaboostLogo} alt="Logo DBA Boost" className="w-6 h-6" />
+
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">DBABoost</h1>
