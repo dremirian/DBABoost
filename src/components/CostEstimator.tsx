@@ -268,4 +268,3 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
   );
 };
 
-export { CostEstimator }
