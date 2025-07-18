@@ -33,7 +33,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">DBABoost</h1>
-              <p className="text-gray-600">Otimizador de Queries SQL</p>
+              <p className="text-gray-600">Seu copiloto de performance em SQL</p>
             </div>
           </div>
         </div>
