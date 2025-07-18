@@ -201,7 +201,7 @@ export const CostEstimator: React.FC<CostEstimatorProps> = ({ onAnalysisResult }
 
                 {analysis.aiAnalysis.detailedSuggestions.length > 0 && (
                   <div>
-                    <h4 className="font-medium text-purple-700 mb-2">Sugestões Detalhadas da IA:</h4>
+                    <h4 className="font-medium text-purple-700 mb-2">Sugestões Detalhadas do DBABoost:</h4>
                     <ul className="space-y-2">
                       {analysis.aiAnalysis.detailedSuggestions.map((suggestion, index) => (
                         <li key={index} className="flex items-start gap-2 text-purple-600">
