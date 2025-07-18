@@ -84,7 +84,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className="bg-white border-t mt-16">
+<div className="bg-gradient-to-r from-blue-100 to-green-100 border-t mt-16">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="text-center text-gray-600">
             <p className="mb-2">
