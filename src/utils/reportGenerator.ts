@@ -393,7 +393,7 @@ export const generateHTMLReport = (data: ReportData): string => {
         ` : ''}
 
         ${analysis.aiAnalysis ? `
-        <h3 style="color: #7c3aed; margin: 25px 0 15px 0;">🤖 Análise com Inteligência Artificial</h3>
+        <h3 style="color: #7c3aed; margin: 25px 0 15px 0;">🤖 Análise do DBA Boost</h3>
         <div style="background: #f3f4f6; padding: 20px; border-radius: 8px; border-left: 4px solid #7c3aed;">
           <p><strong>Resumo:</strong> ${analysis.aiAnalysis.summary}</p>
           <p style="margin-top: 10px;"><strong>Impacto na Performance:</strong> 
