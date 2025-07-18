@@ -53,7 +53,7 @@ function App() {
           <TabButton
             active={activeTab === 'estimator'}
             onClick={() => setActiveTab('estimator')}
-            icon={<Calculator className="w-4 h-4" />}
+            icon={<Zap className="w-4 h-4" />}
           >
             Tuning de Querie
           </TabButton>
