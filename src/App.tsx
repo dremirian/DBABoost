@@ -26,8 +26,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white shadow-sm border-b">
+       {/* Header com gradiente azul e verde bem clarinho */}
+    <div className="bg-gradient-to-r from-blue-100 to-green-100 shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
              <div className="bg-white p-2 rounded-lg shadow border border-gray-200">
