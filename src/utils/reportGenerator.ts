@@ -264,11 +264,11 @@ export const generateHTMLReport = (data: ReportData): string => {
 </head>
 <body>
   <div class="container">
-<!-- Header -->
-<div class="header" style="text-align: center; padding: 20px;">
-  <img src="./dbaboost.png" alt="Logo DBA Boost" style="width: 160px; height: auto;" />
-  <div class="subtitle">Relatório de Análise de Performance SQL</div>
+<div class="text-center py-6">
+  <img src="./dbaboost.png" alt="Logo DBA Boost" class="mx-auto w-40" />
+  <div class="text-gray-600 text-sm mt-2">Relatório de Análise de Performance SQL</div>
 </div>
+
 
     <!-- Report Info -->
     <div class="report-info">
