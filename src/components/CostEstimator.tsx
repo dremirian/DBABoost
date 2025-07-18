@@ -5,6 +5,7 @@ import { analyzeQueryWithAI, initializeOpenAI, isOpenAIConfigured } from '../uti
 import { QueryAnalysis } from '../types';
 import { MetricsCard } from './MetricsCard';
 import { AIConfigModal } from './AIConfigModal';
+import { Zap } from 'lucide-react';
 
 interface CostEstimatorProps {
   onAnalysisResult: (analysis: QueryAnalysis, query: string) => void;
